@@ -1,0 +1,6 @@
+{
+  "name": "Focus Bridge",
+  "description": "Premium native Android application architectural foundation with frosted glass theme, MVVM, Clean Architecture, Hilt, Room, Navigation Compose, WorkManager, and DataStore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

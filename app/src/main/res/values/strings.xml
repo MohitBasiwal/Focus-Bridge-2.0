@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Focus Bridge</string>
+    <string name="accessibility_service_description">Enables Focus Bridge to block non-essential apps and websites during scheduled study sessions.</string>
+</resources>
