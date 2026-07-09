@@ -22,13 +22,17 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: gradle
+
+      - name: Check Gradle Wrapper
+        run: |
+          ls -la
+          ls -la gradle/wrapper || true
 
       - name: Make Gradle executable
         run: chmod +x gradlew
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleDebug --stacktrace --no-daemon
 
       - name: Upload APK
         if: success()
